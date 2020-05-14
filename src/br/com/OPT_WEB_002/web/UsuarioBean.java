@@ -54,7 +54,7 @@ public class UsuarioBean {
 
 	}
 	
-	/**public void cadastro(){
+	public void cadastro(){
 		
 		EmpresaRN empresaRN = new EmpresaRN();
 		Empresa empresa = new Empresa();
@@ -105,9 +105,9 @@ public class UsuarioBean {
 		} catch (DAOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-	
+		}
 		
-	}**/
+	}
 	
 	
 	public String Login() throws DAOException {
