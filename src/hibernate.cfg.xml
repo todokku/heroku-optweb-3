@@ -6,15 +6,15 @@
 
     <session-factory>
    	    	      
-           <property name="hibernate.connection.username">umcbmhbsjszrpk</property>
+            <property name="hibernate.connection.username">umcbmhbsjszrpk</property>
 		   <property name="hibernate.connection.password">0c53729ddb2f697f0806e417de02b40c6d386edb0c78ad26abb32b18cbc0d267</property>
 		   <property name="hibernate.connection.driver_class">org.postgresql.Driver</property> 
 		   <property name="hibernate.connection.url">jdbc:postgresql://ec2-52-201-55-4.compute-1.amazonaws.com:5432/d932gv1de28jn1</property>
         
-   	    <!--    <property name="hibernate.connection.username">postgres</property>	
+   	     <!--  <property name="hibernate.connection.username">postgres</property>	
 		    <property name="hibernate.connection.password">root</property>
 		    <property name="hibernate.connection.driver_class">org.postgresql.Driver</property> 
-		    <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/opt_web_002</property> --> 
+		    <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/opt_web_002</property> -->
 	
 		  <property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property> 
 		  <property name="hibernate.current_session_context_class">thread</property> 
